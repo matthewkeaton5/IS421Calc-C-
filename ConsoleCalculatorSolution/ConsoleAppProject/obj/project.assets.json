@@ -1,0 +1,90 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CalculatorProject/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/CalculatorProject.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CalculatorProject.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CalculatorProject/1.0.0": {
+      "type": "project",
+      "path": "../CalculatorProject/CalculatorProject.csproj",
+      "msbuildProject": "../CalculatorProject/CalculatorProject.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "CalculatorProject >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Matthew\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\IS421 New\\ConsoleCalculatorSolution\\ConsoleAppProject\\ConsoleAppProject.csproj",
+      "projectName": "ConsoleAppProject",
+      "projectPath": "E:\\IS421 New\\ConsoleCalculatorSolution\\ConsoleAppProject\\ConsoleAppProject.csproj",
+      "packagesPath": "C:\\Users\\Matthew\\.nuget\\packages\\",
+      "outputPath": "E:\\IS421 New\\ConsoleCalculatorSolution\\ConsoleAppProject\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Matthew\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "E:\\IS421 New\\ConsoleCalculatorSolution\\CalculatorProject\\CalculatorProject.csproj": {
+              "projectPath": "E:\\IS421 New\\ConsoleCalculatorSolution\\CalculatorProject\\CalculatorProject.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
