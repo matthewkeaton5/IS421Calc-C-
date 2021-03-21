@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\IS421 New\\ConsoleCalculatorSolution\\CalculatorProjectTests\\CalculatorProjectTests.csproj": {}
+    "E:\\IS421 New\\IS421Calc-C-\\ConsoleCalculatorSolution\\CalculatorProjectTests\\CalculatorProjectTests.csproj": {}
   },
   "projects": {
-    "E:\\IS421 New\\ConsoleCalculatorSolution\\CalculatorProjectTests\\CalculatorProjectTests.csproj": {
+    "E:\\IS421 New\\IS421Calc-C-\\ConsoleCalculatorSolution\\CalculatorProjectTests\\CalculatorProjectTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\IS421 New\\ConsoleCalculatorSolution\\CalculatorProjectTests\\CalculatorProjectTests.csproj",
+        "projectUniqueName": "E:\\IS421 New\\IS421Calc-C-\\ConsoleCalculatorSolution\\CalculatorProjectTests\\CalculatorProjectTests.csproj",
         "projectName": "CalculatorProjectTests",
-        "projectPath": "E:\\IS421 New\\ConsoleCalculatorSolution\\CalculatorProjectTests\\CalculatorProjectTests.csproj",
+        "projectPath": "E:\\IS421 New\\IS421Calc-C-\\ConsoleCalculatorSolution\\CalculatorProjectTests\\CalculatorProjectTests.csproj",
         "packagesPath": "C:\\Users\\Matthew\\.nuget\\packages\\",
-        "outputPath": "E:\\IS421 New\\ConsoleCalculatorSolution\\CalculatorProjectTests\\obj\\",
+        "outputPath": "E:\\IS421 New\\IS421Calc-C-\\ConsoleCalculatorSolution\\CalculatorProjectTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Matthew\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\IS421 New\\ConsoleCalculatorSolution\\CalculatorProject\\CalculatorProject.csproj": {
-                "projectPath": "E:\\IS421 New\\ConsoleCalculatorSolution\\CalculatorProject\\CalculatorProject.csproj"
+              "E:\\IS421 New\\IS421Calc-C-\\ConsoleCalculatorSolution\\CalculatorProject\\CalculatorProject.csproj": {
+                "projectPath": "E:\\IS421 New\\IS421Calc-C-\\ConsoleCalculatorSolution\\CalculatorProject\\CalculatorProject.csproj"
               }
             }
           }
@@ -80,14 +80,14 @@
         }
       }
     },
-    "E:\\IS421 New\\ConsoleCalculatorSolution\\CalculatorProject\\CalculatorProject.csproj": {
+    "E:\\IS421 New\\IS421Calc-C-\\ConsoleCalculatorSolution\\CalculatorProject\\CalculatorProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\IS421 New\\ConsoleCalculatorSolution\\CalculatorProject\\CalculatorProject.csproj",
+        "projectUniqueName": "E:\\IS421 New\\IS421Calc-C-\\ConsoleCalculatorSolution\\CalculatorProject\\CalculatorProject.csproj",
         "projectName": "CalculatorProject",
-        "projectPath": "E:\\IS421 New\\ConsoleCalculatorSolution\\CalculatorProject\\CalculatorProject.csproj",
+        "projectPath": "E:\\IS421 New\\IS421Calc-C-\\ConsoleCalculatorSolution\\CalculatorProject\\CalculatorProject.csproj",
         "packagesPath": "C:\\Users\\Matthew\\.nuget\\packages\\",
-        "outputPath": "E:\\IS421 New\\ConsoleCalculatorSolution\\CalculatorProject\\obj\\",
+        "outputPath": "E:\\IS421 New\\IS421Calc-C-\\ConsoleCalculatorSolution\\CalculatorProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Matthew\\AppData\\Roaming\\NuGet\\NuGet.Config",

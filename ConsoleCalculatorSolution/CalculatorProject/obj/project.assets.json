@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\IS421 New\\ConsoleCalculatorSolution\\CalculatorProject\\CalculatorProject.csproj",
+      "projectUniqueName": "E:\\IS421 New\\IS421Calc-C-\\ConsoleCalculatorSolution\\CalculatorProject\\CalculatorProject.csproj",
       "projectName": "CalculatorProject",
-      "projectPath": "E:\\IS421 New\\ConsoleCalculatorSolution\\CalculatorProject\\CalculatorProject.csproj",
+      "projectPath": "E:\\IS421 New\\IS421Calc-C-\\ConsoleCalculatorSolution\\CalculatorProject\\CalculatorProject.csproj",
       "packagesPath": "C:\\Users\\Matthew\\.nuget\\packages\\",
-      "outputPath": "E:\\IS421 New\\ConsoleCalculatorSolution\\CalculatorProject\\obj\\",
+      "outputPath": "E:\\IS421 New\\IS421Calc-C-\\ConsoleCalculatorSolution\\CalculatorProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Matthew\\AppData\\Roaming\\NuGet\\NuGet.Config",

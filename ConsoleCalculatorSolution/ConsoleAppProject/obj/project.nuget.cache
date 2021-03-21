@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gU1NQJGtPt75Tab2yFEublgHHh4Idl4xYG895TsBQpVav75mtu9CoPgTgJ077YDr35K8iBAaaCw2I8f0pdMVIQ==",
+  "dgSpecHash": "Ww0D4YwL6BfmiDXjslnFRnFB7IqHeR3e+QST+n4jeeNKI9OLccOvDhu0o/QqRls/qSi+Jb0UmDpZkdWrqqkJ4A==",
   "success": true,
-  "projectFilePath": "E:\\IS421 New\\ConsoleCalculatorSolution\\ConsoleAppProject\\ConsoleAppProject.csproj",
+  "projectFilePath": "E:\\IS421 New\\IS421Calc-C-\\ConsoleCalculatorSolution\\ConsoleAppProject\\ConsoleAppProject.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
