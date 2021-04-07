@@ -16,18 +16,18 @@ namespace CalculatorProject.Models
 
         //constructor for 2 param (list, and function)
 
-        public static BulkCalculation Create(List<double> listOfValues, Func<List<double>, double> operation)
+        public static BulkCalculation Create(List<double> listOfValues, Func<List<double>, double> op)
         {
-            var _calculation = new BulkCalculation(listOfValues, operation);
-            return _calculation;
+            var _calculation = IAbstractFactory.BulkCalc();
+            return _calculation.Create(listOfValues,op);
         }
 
-        public BulkCalculation(List<double> listOfValues, Func<List<double>, double> calculation)
+        public BulkCalculation(List<double> listOfValues, Func<List<double>, double> op)
         {
             ListOfValues = listOfValues;
 
             //this stores the operation to be performed on A and B
-            BulkOperation = calculation;
+            BulkOperation = op;
         }
         public double GetResult()
         {

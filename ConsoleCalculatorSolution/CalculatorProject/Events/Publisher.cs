@@ -1,18 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using CalculatorProject.Interfaces;
 
 namespace CalculatorProject.Events
 {
-    public class Publisher
+    public class Publisher : EventArgs
     {
-        public Action OnChange { get; set; }
-
-        public void Raise()
+        public EventHandler<ProcessEventArgs> _completed;
+        public void setCalculation(ICalculation calculation)
         {
-            if (OnChange != null)
+            OnCalculation(calculation);
+        }
+        protected virtual void OnCalculation(ICalculation calculation)
+        {
+            if (_completed != null)
             {
-                OnChange();
+                _completed.Invoke(this, new ProcessEventArgs() { Calculation = calculation });
             }
         }
     }

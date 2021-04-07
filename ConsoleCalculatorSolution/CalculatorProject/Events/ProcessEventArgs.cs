@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using CalculatorProject.Interfaces;
 
 namespace CalculatorProject.Events
 {
     public class ProcessEventArgs : EventArgs
     {
-        public string operation { get; set; }
-        public bool IsSuccessful { get; set; }
-        public DateTime CompletionTime { get; set; }
+        public ICalculation Calculation { get; set; }
     }
 }

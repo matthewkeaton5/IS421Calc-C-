@@ -33,12 +33,14 @@ namespace CalculatorProject.Tests
         public void SumTest()
         {
 
-            ProcessCalcFunction _Event = new ProcessCalcFunction();
-            _Event.ProcessCompleted += _EventProcessCompleted; // register with an event
-             _Event.StartProcess();
+            double _a = 1;
+            double _b = 2;
+            string op = Console.ReadLine();
 
-            System.Diagnostics.Debug.WriteLine("Number Returned: " + _Event.StartProcess());
-            Assert.AreEqual(_Event.StartProcess(), 3);
+            Func<double, double, double> _c = Operations.Sum;
+            Calculator _calculator = new Calculator(new Builder());
+            var _function = _calculator.RegularCalculator(_a, _b, _c);
+            var _answer = _function.GetResult();
         }
         [TestMethod()]
         public void SubtractionTest()

@@ -9,6 +9,7 @@ namespace CalculatorProject.CalculatorFunctions
     {
         //lists don't automaticly have sum values, the sum method comes from LINQ
         public static Func<List<double>, double> SumList = (a) => a.Sum();
+        
 
     }
 }

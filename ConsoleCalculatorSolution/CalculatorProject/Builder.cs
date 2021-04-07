@@ -26,10 +26,5 @@ namespace CalculatorProject
             _Calculations.AddCalculation(_calculation);
             return _calculation;
         }
-        public List<ICalculation> GetList()
-        {
-            var listResult = _Calculations._Calculations;
-            return listResult;
-        }
     }
 }
