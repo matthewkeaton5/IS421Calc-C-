@@ -49,13 +49,23 @@ This is the final stop for our user input once the code arrives at this point th
 These patterns were the primary focus of this project. As a class we were instructed to use many of them. Below you can find more information on each of them below.
 
 ### Dependency Injection
-![Image](https://github.com/matthewkeaton5/IS421Calc-C-/blob/main/IMGs/Calculation.png)
-![Image](https://github.com/matthewkeaton5/IS421Calc-C-/blob/main/IMGs/BulkCalculation.png)
+This first image is the interface I used in the two following images. This interface was used when the program had to determine which values the user was trying to calculate. As different types of information is being passed into both Calculation, and Bulk calculation this interface made the connection between the two and ensured the right one was being called depending on the user's input.
+
 ![Image](https://github.com/matthewkeaton5/IS421Calc-C-/blob/main/IMGs/ICalculation.png)
+
+![Image](https://github.com/matthewkeaton5/IS421Calc-C-/blob/main/IMGs/Calculation.png)
+
+![Image](https://github.com/matthewkeaton5/IS421Calc-C-/blob/main/IMGs/BulkCalculation.png)
 
 
 ### Builder Pattern
+The Builder Pattern satisfies multiple SOLID requirements and interfaces with the ICalculator class further adding to the dependency injection of the project. The primary purpose of the builder allows me to generate an object that satisfies the required information of both BulkCalculation and Calculation respectively. That way the same process is used for either of the two class requirements.
+
+![Image](https://github.com/matthewkeaton5/IS421Calc-C-/blob/main/IMGs/Builder.png)
+
+![Image](https://github.com/matthewkeaton5/IS421Calc-C-/blob/main/IMGs/ICalculator.png)
 
 ### Abstract Factory
+This was created as an interface capable of handling information for both the concrete versions BulkCalculation, and Calculation 
 
-
+![Image](https://github.com/matthewkeaton5/IS421Calc-C-/blob/main/IMGs/IAbstractFactory.png)
