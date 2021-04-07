@@ -15,3 +15,6 @@ The goal of this project was for the calculator to take in two values. These two
 
 * **Dependency Inversion**: "Depend on abstractions not on concrete implementations."
  
+# Lambda Expressions
+As with many calculators people develop code for there is going to be functions designated for handling all of the different operations.
+![image](https://github.com/matthewkeaton5/IS421Calc-C-/blob/main/IMGs/ListOperations.png)
